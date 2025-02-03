@@ -1,0 +1,41 @@
+aside{
+    border: 2px solid; 
+    width: 10%;
+    background-color: rgb(188, 188, 188);
+
+}
+
+.foto_panel_usuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foto_panel_usuario img{
+    width: 50%;
+}
+.panel_usuario{
+    display: block;
+align-items: center;
+text-align: center;
+}
+.panel_usuario_specs{
+    margin: 10%;
+    text-align: left;
+    list-style-position: inside;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;  /* Espacio uniforme entre los elementos */
+    align-items: center;
+
+}
+
+footer img{
+
+    width: 40px;
+    height: 40px;
+}
+footer a{
+    margin: 0% 20px;
+
+}
