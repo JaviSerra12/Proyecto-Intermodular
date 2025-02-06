@@ -1,0 +1,132 @@
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 16px;
+}
+h1{
+   font-size: 24px;
+}
+body{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content: center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: column; /*MOSTRAR EN COLUMNAS*/
+      
+}
+/*HEADER*/ 
+header{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    justify-content: space-between; /*REPARTIR ENTRE EL ESPACIO DISPONIBLE*/
+    flex-direction: row; /*MOSTRAR EN FILAS*/
+    border: 2px solid; /*MOSTRAR BORDE*/
+    width: 80%; /*OCUPAR SOLO EL 80% DE LA PANTALLA*/
+    margin-bottom: 10px;
+    
+}
+header img{
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+ header p{
+    flex-grow: 1; /*DESPLAZA UN ELEMENTO A LA IZQUIERDA, EN REALIDAD HACE QUE OCUPE TODO EL ESPACIO DISPONIBLE PARA ESE ELEMENTO*/
+ }
+
+ /*MAIN*/
+
+ main{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content: center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: column;
+    width: 60%; /*OCUPAR SOLO EL 80% DE LA PANTALLA*/
+    padding: 20px 0px;
+ }
+ main img{
+    width: 80%;
+    height:50%;
+    margin-bottom: 10px;
+
+ }
+ main div{
+   display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content: center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: column;
+    margin: 0px 10px;
+ }
+ main section{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content: center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: column;
+    border: 2px solid;
+    width: 80%; /*OCUPAR SOLO EL 80% DE LA PANTALLA*/
+ }
+ main section article{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content:center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: row;
+    flex-wrap: wrap; /* SI LOS ELEMENTOS NO CABEN; PASAN A ESTAR ENCIMA UNO DEL OTRO */
+    width: 90%;
+    border-bottom: 2px solid;
+    padding: 5px 0px;
+ }
+ 
+ main section article img{
+    width: 30px;
+    height: 30px;
+ }
+ main section article p{
+    flex-grow: 1;
+    padding: 0 10px;
+ }
+ main section article sub{
+   flex-grow: 0;
+    padding: 0 10px;
+    font-size: 12px;
+ }
+ .sin_linea{
+   border-bottom: 0px solid;
+
+}
+main section article div{
+   display: flex;/*ACTIVAR FLEXBOX*/
+   justify-content:center; /*CENTRAR HORIZONTAL*/
+   align-items: center; /*CENTRAR VERTICAL*/
+   flex-direction: row;
+   border: 2px solid;
+   padding: 2px 20px;
+}
+#resaltar{
+   border: 3px solid;
+}
+
+/*PIE DE PAGINA*/
+footer{
+   display: flex;
+   justify-content: center; /*CENTRAR HORIZONTALMENTE*/
+   align-items: center; /*CENTRAR VERTICALMENTE*/
+   flex-direction: column; /*COLOCAR EN COLUMNAS*/
+
+}
+footer div{
+   display: flex;
+   justify-content: center; /*CENTRAR HORIZONTALMENTE*/
+   align-items: center; /*CENTRAR VERTICALMENTE*/
+   width: 50%;
+   padding: 0px 50px;
+}
+
+footer img{
+   width: 50px;
+   height: 50px;
+   padding: 0px 50px;
+
+}
+footer a{
+text-align: center;
+padding: 0px 45px;
+
+}
