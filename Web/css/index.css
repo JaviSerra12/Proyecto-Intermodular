@@ -114,6 +114,7 @@ section{
 
 }
 
+
 section section{
     display: flex;
     justify-content: center; /*CENTRAR HORIZONTALMENTE*/
@@ -177,6 +178,9 @@ section section article p{
 .banner_articulos a{
     padding: 10px 20px;
     margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .banner_articulos a p{
@@ -186,6 +190,7 @@ section section article p{
     margin: 0px;
     margin-right: 60px;
     text-align: center;
+    flex-direction: column;
 }
 
 
@@ -212,9 +217,13 @@ footer img{
     padding: 0px 50px;
 
 }
+
 footer a{
-text-align: center;
-padding: 0px 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 10px;
+
 
 }
 
