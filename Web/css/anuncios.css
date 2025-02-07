@@ -19,6 +19,7 @@ header{
     justify-content: space-between; /*REPARTIR ENTRE EL ESPACIO DISPONIBLE*/
     flex-direction: row; /*MOSTRAR EN FILAS*/
     border: 2px solid; /*MOSTRAR BORDE*/
+    border-radius: 15px;
     width: 80%; /*OCUPAR SOLO EL 80% DE LA PANTALLA*/
     margin-bottom: 10px;
     
@@ -61,6 +62,7 @@ header img{
     align-items: center; /*CENTRAR VERTICAL*/
     flex-direction: column;
     border: 2px solid;
+    border-radius: 15px;
     width: 80%; /*OCUPAR SOLO EL 80% DE LA PANTALLA*/
  }
  main section article{
@@ -71,6 +73,7 @@ header img{
     flex-wrap: wrap; /* SI LOS ELEMENTOS NO CABEN; PASAN A ESTAR ENCIMA UNO DEL OTRO */
     width: 90%;
     border-bottom: 2px solid;
+
     padding: 5px 0px;
  }
  
@@ -97,10 +100,33 @@ main section article div{
    align-items: center; /*CENTRAR VERTICAL*/
    flex-direction: row;
    border: 2px solid;
+   border-radius: 15px;
    padding: 2px 20px;
 }
+form{
+    display: flex;/*ACTIVAR FLEXBOX*/
+    justify-content:center; /*CENTRAR HORIZONTAL*/
+    align-items: center; /*CENTRAR VERTICAL*/
+    flex-direction: row;
+    border-radius: 15px;
+    padding: 2px 20px;
+    flex-wrap: wrap;
+}
+
+form button{
+      display: flex;/*ACTIVAR FLEXBOX*/
+      justify-content:center; /*CENTRAR HORIZONTAL*/
+      align-items: center; /*CENTRAR VERTICAL*/
+      flex-direction: row;
+      border: 2px solid;
+      border-radius: 15px;
+      padding: 2px 20px;
+      margin: 0px 10px;
+}
+
 #resaltar{
    border: 3px solid;
+   border-radius: 15px;
 }
 
 /*PIE DE PAGINA*/

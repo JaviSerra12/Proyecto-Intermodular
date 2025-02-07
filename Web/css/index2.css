@@ -26,19 +26,19 @@ main{
         justify-content: center; /*CENTRAR HORIZONTALMENTE*/
         align-items: left; /*CENTRAR VERTICALMENTE*/
         gap: 20px; /*SEPARACION ENTRE ELEMENTOS*/
-        min-height: auto;
         width: 100%;
 
 }
 /* PERFIL IZQUIERDA */
 .perfil{
-    display: block;
+    display: flex;
+    justify-content: center; /*CENTRAR HORIZONTALMENTE*/
+        align-items: left; /*CENTRAR VERTICALMENTE*/
     border: 2px solid; 
     border-radius: 15px;
-    width: 20%;
     background-color: rgb(188, 188, 188);
-    width: 20%;
-    max-width: 300px;
+    max-width: 15%;
+    flex-wrap: wrap;
 
 }
 .foto_panel_usuario{
@@ -67,7 +67,10 @@ text-align: center;
     justify-content: center; /*CENTRAR HORIZONTALMENTE*/
     align-items: center; /*CENTRAR VERTICALMENTE*/
     flex-direction: column;
+    width: 20%;
+    flex-wrap: wrap;
 }
+
 .perfil_derecho section{
     display: flex;  /* Activamos Flexbox */
         justify-content: center; /*CENTRAR HORIZONTALMENTE*/
@@ -83,11 +86,13 @@ text-align: center;
 
 .perfil_derecho section img{
     height: 30px;
-    width: 300px;
+    width: 100%;
     margin-top: 0px;
+    
 }
 .perfil_derecho img{
-height: 30px;
+
+    height: 30px;
 width: 30px;
 }
 .perfil_derecho section div{
@@ -132,7 +137,6 @@ section section article{
     border: 2px solid;
     border-radius: 15px;
     width: 100%;
-    min-height: 100%; /*HACEMOS QUE TODOS ESTEN A LA MISMA ALTURA*/
 
 }
 section section article h6{
@@ -217,5 +221,3 @@ text-align: center;
 padding: 0px 45px;
 
 }
-
-
