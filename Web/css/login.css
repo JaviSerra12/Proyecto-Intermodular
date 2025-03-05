@@ -1,13 +1,15 @@
-
 /* 
     EQUIPO: JAVIER, DANIEL, JULIAN, CRISTIAN
     AUTOR: JAVIER SERRANO
 */
 
+
+
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
- }
+    
+}
 
 header, main, footer{                                                   /* TAMAÑO */
     width: 950px;
@@ -51,7 +53,7 @@ main section:nth-child(1) input:nth-child(1){                          /* CAJA U
     background-color: rgb(225, 225, 225);
 }
 
-main section:nth-child(2) input:nth-child(1){                          /* CAJA EMAIL */
+main section:nth-child(2) input:nth-child(1){                          /* CAJA CONTRASEÑA */
     display: flex;
     height: 25px;
     width: 300px;
@@ -62,29 +64,14 @@ main section:nth-child(2) input:nth-child(1){                          /* CAJA E
     background-color: rgb(225, 225, 225);
 }
 
-main section:nth-child(3) input:nth-child(1){                          /* CAJA CONTRASEÑA */
+main section:nth-child(3) p:nth-child(1){                              /* ¿HAS OLVIDADO LA CONTRASEÑA? */
     display: flex;
-    height: 25px;
-    width: 300px;
-    margin-left: 5px;
-    margin-top: 40px;
-    padding-left: 5px;
-    border-radius: 5px;
-    background-color: rgb(225, 225, 225);
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
-main section:nth-child(4) input:nth-child(1){                          /* CAJA REPETIR CONTRASEÑA */
-    display: flex;
-    height: 25px;
-    width: 300px;
-    margin-left: 5px;
-    margin-top: 40px;
-    padding-left: 5px;
-    border-radius: 5px;
-    background-color: rgb(225, 225, 225);
-}
-
-main section:nth-child(5) p:nth-child(1){                              /* ENTRAR */
+main section:nth-child(4) p:nth-child(1){                              /* ENTRAR */
     display: flex;
     justify-content: center;
     height: 30px;
@@ -96,7 +83,7 @@ hr{                                                                    /* LINEA 
     width:300px ;
 }
 
-main section:nth-child(8) a{                                         /* SEPARACION ICONOS  */  
+main section:nth-child(7) a{                                         /* SEPARACION ICONOS  */  
    margin: 0px 5px;
 }
 
