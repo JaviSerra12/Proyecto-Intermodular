@@ -1,7 +1,8 @@
 <!--
     EQUIPO: JAVIER, DANIEL, JULIAN, CRISTIAN
-    AUTOR: CRISTIAN SANCHEZ 
+    AUTOR: CRISTIAN SANCHEZ
 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,66 +12,80 @@
     <link rel="stylesheet" href=".\css\anuncios.css">
 </head>
 <body>
-    <!--BUSCADOR-->
     <header>
-        <img src=".\images\iconmenu.png">
+        <figure><img src=".\images\iconmenu.png"></figure>
         <p>¿Que quieres buscar?</p>
-        <img src=".\images\lupa.png">
+        <figure><img src=".\images\lupa.png"></figure>
     </header>
-    <!--CONTENIDO-->
     <main>
-        <img src=".\images\anuncio.png">
+        <figure><img src=".\images\anuncio.png"></figure>
         <section>
-            <div>
-                <h1>Actriz</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id augue non urna luctus hendrerit eget vel nunc. Sed elementum volutpat luctus. Duis maximus metus eu augue imperdiet consequat. Pellentesque quis egestas massa. Aenean iaculis nulla sit amet mauris sagittis, sit amet tincidunt nisi accumsan.</p>
-            </div>
+            <h1>Actriz</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id augue non urna luctus hendrerit eget vel nunc. Sed elementum volutpat luctus. Duis maximus metus eu augue imperdiet consequat. Pellentesque quis egestas massa. Aenean iaculis nulla sit amet mauris sagittis, sit amet tincidunt nisi accumsan.</p>
             <article>
-                <img src=".\images\icon1.png"> 
-                <p>Edad</p>
-                <sub>50+</sub>
-                <img src=".\images\check.png"> 
-            </article>
-            <article>
-                <img src=".\images\icon2.png"> 
-                <p>Pelo corto</p>
-                <img src=".\images\check.png"> 
+                <figure>
+                    <img src=".\images\icon1.png">
+                    <figcaption>Edad</figcaption>
+                </figure>     
+                <figure>
+                    <figcaption>50+</figcaption>
+                    <img src=".\images\check.png">
+                </figure> 
             </article>
             <article>
-                <img src=".\images\icon3.png"> 
-                <p>Altura</p>
-                <sub>1,8M</sub>
-                <img src=".\images\check.png"> 
+                <figure>
+                    <img src=".\images\icon2.png"> 
+                    <figcaption>Pelo corto</figcaption>
+                </figure>
+                <figure>
+                    <img src=".\images\check.png"> 
+                </figure>
             </article>
-            <article class="sin_linea">
-                
-                <img src=".\images\icon4.png"> 
-                <p>Coche</p>
-                <img src=".\images\check.png"> 
+            <article>
+                <figure>
+                    <img src=".\images\icon3.png"> 
+                    <figcaption>Altura</figcaption>
+                </figure>
+                <figure>
+                    <figcaption>1,8M</figcaption>
+                    <img src=".\images\check.png"> 
+                </figure>
             </article>
-            <article class="sin_linea">
-                <form method="post">
+            <article>
+                <figure>
+                    <img src=".\images\icon4.png"> 
+                    <figcaption>Coche</figcaption>
+                </figure>
+                <figure>
+                    <img src=".\images\check.png"> 
+                </figure>
+            </article>
+        </section>
+        <section>
+            <form method="post">
                     
-                    <button formaction="Index.html">
+                <button formaction="Index.html">
+                    <figure>
                         <img src=".\images\iconmore.png">
-                        <p>Aplicar</p>
-                    </button>
-                    <button formaction="Index.html">
+                        <figcaption>Aplicar</figcaption>
+                    </figure>
+                </button>
+                <button formaction="Index.html">
+                    <figure>
                         <img src=".\images\iconsave.png">
-                        <p>Guardar</p>
-                    </button>
-                </form>
-            </article>
+                        <figcaption>Guardar</figcaption>
+                    </figure>
+                </button>
+            </form>
         </section>
     </main>
     <footer>
-         <div>
-            <a href=".\index.html"> <img src=".\images\casa.png">Inicio</a>
-            <a href=".\index.html"> <img  src=".\images\maletin.png">No funcional</a>
-            <a href=".\index.html"> <img src=".\images\notis.png">No funcional</a>
-            <a href=".\perfil.html"> <img src=".\images\perfil.png">Perfil</a>
-         </div>
-    
-    </footer>
+        <section>
+           <a href=".\index.html"> <img src=".\images\casa.png">Inicio</a>
+           <a href=".\index.html"> <img  src=".\images\maletin.png">No funcional</a>
+           <a href=".\index.html"> <img src=".\images\notis.png">No funcional</a>
+           <a href=".\perfil.html"> <img src=".\images\perfil.png">Perfil</a>
+        </section>
+   </footer>
 </body>
 </html>

@@ -1,31 +1,34 @@
 <!--
     EQUIPO: JAVIER, DANIEL, JULIAN, CRISTIAN
-    AUTOR: CRISTIAN SANCHEZ 
+    AUTOR: CRISTIAN SANCHEZ
 -->
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href=".\css\index.css">
+    <link rel="stylesheet" href="./css/Index.css">
 </head>
 <body>
     <header>
         <a href="Login.html">Volver</a> 
-        <p>¿Que quieres buscar?</p>
+        
+        <nav>
+            <form target="_blank">
+                <input type="search" placeholder="¿Que quieres buscar?" name="buscador">
+            </form>
+        </nav>
     </header>
     <main>
-        <!-- PERFIL LADO IZQUIERDO-->
-        <aside class="perfil">
-            <div class="foto_panel_usuario">
-                <img  src=".\images\logo_login.jpg">
-                
-            </div>
-            <div class="panel_usuario">
-                <p>Nombre</p> 
-                <div class="panel_usuario_specs">
-                    <p>Experiencia</p>
+        <aside>
+            <figure>
+                <img src=".\images\logo_login.jpg">
+            </figure>
+            <section>
+                <span>Nombre</span>
+                <p>Experiencia</p>
                     <ul>
                         <li>Experiencia 1</li>
                         <li>Experiencia 2</li>
@@ -43,92 +46,88 @@
                         <li>Estudio 2</li>
                         <li>Estudio 3</li>
                     </ul>
-                </div>
-            </div>
+            </section>
         </aside>
-        <!-- ANUNCIOS-->
         <section>
+            <!-- ANUNCIOS 1-->
+            <article>
+                <h6>Hace X minutos</h6>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                <figure>
+                    <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
+                    <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
+                    <a href=".\anuncios.html"><span>Ampliar</span></a>
+                </figure>
+            </article>
+            <!-- ANUNCIOS 2-->
+            <article>
+                <h6>Hace X minutos</h6>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                <figure>
+                    <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
+                    <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
+                    <a href=".\anuncios.html"><span>Ampliar</span></a>
+                </figure>
+            </article>
+        </section>
+        <section>
+            <!-- ANUNCIOS 3-->
+            <article>
+                <h6>Hace X minutos</h6>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                <figure>
+                    <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
+                    <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
+                    <a href=".\anuncios.html"><span>Ampliar</span></a>
+                </figure>
+            </article>
+            <!-- ANUNCIOS 4-->
+            <article>
+                <h6>Hace X minutos</h6>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                <figure>
+                    <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
+                    <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
+                    <a href=".\anuncios.html"><span>Ampliar</span></a>
+                </figure>
+            </article>
+        </section>
+
+        <aside>         
             <section>
-                <!-- ANUNCIOS 1-->
-                <article>
-                    <h6>Hace X minutos</h6>
-                    <h2>Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
-                    <div class="banner_articulos">
-                        <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
-                        <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
-                        <a href=".\anuncios.html"><p>Ampliar</p></a>
-                    </div>
-                </article>
-                <!-- ANUNCIOS 2-->
-                <article>
-                    <h6>Hace X minutos</h6>
-                    <h2>Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa. </p>
-                    <div class="banner_articulos">
-                        <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
-                        <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
-                        <a href=".\anuncios.html"><p>Ampliar</p></a>
-                    </div>
-                </article>
-            </section>
-            <section>
-                <!-- ANUNCIOS 3-->
-                <article>
-                    <h6>Hace X minutos</h6>
-                    <h2>Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
-                    <div class="banner_articulos">
-                        <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
-                        <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
-                        <a href=".\anuncios.html"><p>Ampliar</p></a>
-                    </div>
-                </article>
-                <!-- ANUNCIOS 4-->
-                <article>
-                    <h6>Hace X minutos</h6>
-                    <h2>Titulo</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue porttitor, rutrum nibh sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean viverra, enim eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa. </p>
-                    <div class="banner_articulos">
-                        <a href="https://api.whatsapp.com/send?text=[text]"><img src=".\images\iconflecha.png"> Compartir</a>
-                        <a href="Index.html"><img src=".\images\iconmore.png"> No funcional</a>
-                        <a href=".\anuncios.html"><p>Ampliar</p></a>
-                    </div>
-                </article>
-            </section>
-         </section>
-        <!-- PERFIL LADO DERECHO-->
-        <aside class="perfil_derecho">         
-            <section>
-                <div>
-                    <h2>Logros</h2>
+                <figure>
+                    <figcaption>Logros</figcaption>
                     <img src=".\images\iconcopa.png">
-                </div>
+                </figure>
                 
                 <p>Principiante</p>
-                <img src=".\images\iconprogreso.png">
-                <div>
+                <figure><img src=".\images\iconprogreso.png"></figure>
+                <figure>
                     <img src=".\images\icon1.png">
                     <img src=".\images\icon2.png">
                     <img src=".\images\icon3.png">
                     <img src=".\images\icon4.png">
-                </div>
+                </figure>
                 <p>Estrella</p>
-                <img src=".\images\iconprogreso.png">
-                <div>
+                <figure><img src=".\images\iconprogreso.png"></figure>
+                <figure>
                     <img src=".\images\icon1.png">
                     <img src=".\images\icon2.png">
                     <img src=".\images\icon3.png">
                     <img src=".\images\icon4.png">
-                </div>
+                </figure>
                 <p>Leyenda</p>
-                <img src=".\images\iconprogreso.png">
-                <div>
+                <figure><img src=".\images\iconprogreso.png"></figure>
+                <figure>
                     <img src=".\images\icon1.png">
                     <img src=".\images\icon2.png">
                     <img src=".\images\icon3.png">
                     <img src=".\images\icon4.png">
-                </div>
+                </figure>
             </section>
             <section>
                 <h1>Notificaciones</h1>
@@ -138,16 +137,14 @@
             </section>
         </aside>
     </main>
-
     <footer>
-         <div>
-            <a href=".\index.html"> <img src=".\images\casa.png">Inicio</a>
-            <a href=".\index.html"> <img  src=".\images\maletin.png">No funcional</a>
-            <a href=".\index.html"> <img src=".\images\notis.png">No funcional</a>
-            <a href=".\perfil.html"> <img src=".\images\perfil.png">Perfil</a>
-         </div>
-    
-    </footer>
+        <section>
+           <a href=".\index.html"> <img src=".\images\casa.png">Inicio</a>
+           <a href=".\index.html"> <img  src=".\images\maletin.png">No funcional</a>
+           <a href=".\index.html"> <img src=".\images\notis.png">No funcional</a>
+           <a href=".\perfil.html"> <img src=".\images\perfil.png">Perfil</a>
+        </section>
+   </footer>
     
 </body>
 </html>
