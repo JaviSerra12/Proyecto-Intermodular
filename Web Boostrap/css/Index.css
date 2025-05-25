@@ -1,0 +1,228 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+main {
+    padding-left: 12px;
+    padding-right: 12px;
+
+    article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        border: 2px solid;
+        border-radius: 15px;
+        margin: 5px 5px;
+
+        h6 {
+            text-align: right;
+            margin-right: 15px;
+            margin-bottom: 0px;
+            margin-top: 5px;
+            font-size: 12px;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: left;
+            margin-left: 30px;
+            margin-top: 0px;
+            font-size: 22px;
+            width: 100%;
+        }
+
+        p {
+
+            text-align: left;
+            margin-left: 15px;
+            margin-top: 0px;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        figure {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 10px 0px;
+
+
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 0px 0px;
+                margin: 0px 10px;
+                font-size: 12px;
+                text-decoration-line: none;
+
+                span {
+                    border: 2px solid;
+                    border-radius: 15px;
+                    padding: 10px 10px;
+
+                }
+
+                img {
+                    height: 30px;
+                    width: 30px;
+                    margin: 0px 5px;
+
+                }
+
+                svg {
+                    height: 30px;
+                    width: 30px;
+                    margin: 0px 5px;
+
+                }
+            }
+
+        }
+    }
+
+    /*ASIDE */
+
+
+    aside {
+        ul {
+            li {
+                list-style-type: none;
+            }
+        }
+    }
+
+    aside:nth-child(3) {
+
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 10px;
+
+
+
+
+
+
+            p {
+                margin: 0px 0px;
+                text-align: center;
+                font-style: oblique;
+            }
+
+            a {
+                text-align: center;
+            }
+
+            p:nth-child(3) {
+                margin: 10px 0px;
+            }
+
+            figure:nth-of-type(1){
+                border-bottom: none;
+            }
+
+            figure {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0px 20px;
+                margin-bottom: 20px;
+                margin-top: 5px;
+
+                svg {
+                    height: 32px;
+                    width: 32px;
+                    margin-bottom: 5px;
+                    margin: auto 5px;
+                    color: rgb(77, 166, 229);
+                }
+
+                .marcado {
+                    color: rgb(7, 217, 147);
+                }
+
+                figcaption {
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+
+        }
+
+        section:nth-child(2) {
+            border-top: 2px solid black;
+            
+
+            h1 {
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+
+}
+
+/* FOOTER*/
+footer {
+    justify-content: center;
+    
+
+    section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        border: 2px solid rgb(235, 234, 235);
+        border-radius: 100px;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            text-decoration: none;
+            color: wheat;
+
+            svg {
+                
+                
+                width: 50px;
+                height: 50px;
+                color: rgb(240, 240, 240);
+            }
+
+
+        }
+
+    }
+}
+
+
+/*CLASES */
+.cuadro-3d {
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4),
+        -2px -2px 6px rgba(255, 255, 255, 0.6);
+    border: 2px solid #999;
+}
+
+.progress {
+    margin: 10px;
+    width: 90%;
+}
+
