@@ -23,71 +23,139 @@
             <div class="container-fluid"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false"
                     aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse" id="navbarsExample06">
-                    <ul class="navbar-nav me-auto mb-2 mb-xl-0">
-                        <li class="nav-item"> <a class="nav-link active fw-bold" aria-current="page"
-                                href="./index.html">Inicio</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Anuncios </a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Notificaciones</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="./perfil.html">Perfil</a> </li>
-                        <li class="nav-item"> <a class="nav-link text-decoration-underline fw-bold"
-                                href="./Login.html">Login</a> </li>
-                    </ul>
-                    <form role="search"> <input class="form-control" type="search" placeholder="Buscar"
+                <div class="collapse navbar-collapse justify-content-between" id="navbarsExample06">
+                    <section class="col-lg-7 col-10 justify-content-around  my-1">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item"> <a class="nav-link active fw-bold d-flex align-items-center"
+                                    aria-current="page" href="./index.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="32" height="32" fill="currentColor" class="bi bi-house-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z">
+                                        </path>
+                                        <path
+                                            d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z">
+                                        </path>
+                                    </svg>Inicio</a> </li>
+                            <li class="nav-item"> <a class="nav-link d-flex align-items-center" href="#"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5" />
+                                        <path
+                                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
+                                    </svg>Anuncios </a> </li>
+                            <li class="nav-item"> <a class="nav-link d-flex align-items-center" href="#"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1zM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                    </svg>Notificaciones</a> </li>
+                            <li class="nav-item"> <a class="nav-link d-flex align-items-center" href="./perfil.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-person-square" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                        <path
+                                            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                                    </svg>Perfil</a> </li>
+                            <li class="nav-item"> <a
+                                    class="nav-link text-decoration-underline fw-bold d-flex align-items-center"
+                                    href="./Login.html"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                        fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                                    </svg> Login</a> </li>
+
+                        </ul>
+                    </section>
+
+                    <!--INBOX-->
+                    <form role="search"> <input class="form-control col-8" type="search" placeholder="Buscar"
                             aria-label="Search"> </form>
                 </div>
             </div>
+
+            </section>
         </nav>
+
 
     </header>
 
     <main>
-        <section class="row justify-content-lg-center justify-content-around my-4">
 
-            <!--ASIDE IZQUIERDO-->
-            <aside
-                class="mt-2 p-0 col-lg-2 col-5 border border-2 border-black bg-primary bg-gradient bg-opacity-10 rounded-4 order-first">
-                <section class="row justify-content-center">
-                    <figure class="col-6  mt-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                            class="bi bi-person-circle img-fluid" viewBox="0 0 16 16">
-                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-                            <path fill-rule="evenodd"
-                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-                        </svg>
-                    </figure>
-                </section>
-                <section class="row justify-content-center">
-                    <section class="col-10 ">
-                        <p class="text-center fw-bolder text-decoration-underline">Nombre</p>
-                        <p class="fw-bolder">Experiencia</p>
-                        <ul>
-                            <li>Experiencia 1</li>
-                            <li>Experiencia 2</li>
-                            <li>Experiencia 3</li>
-                        </ul>
-                        <p class="fw-bolder">Habilidades</p>
-                        <ul>
-                            <li>Habilidad 1</li>
-                            <li>Habilidad 2</li>
-                            <li>Habilidad 3</li>
-                        </ul>
-                        <p class="fw-bolder">Estudios</p>
-                        <ul>
-                            <li>Estudio 1</li>
-                            <li>Estudio 2</li>
-                            <li>Estudio 3</li>
-                        </ul>
-                    </section>
-                </section>
-            </aside>
+
+
+
+        <section class="row justify-content-lg-between justify-content-around my-4">
+
+            <!--CARROUSEL DE CARDS-->
+
+
+
 
             <!--ANUNCIOS-->
-            <section class="col-lg-8 col-12 order-lg-0 order-1">
+            <section class="col-lg-10 col-12 order-lg-0 order-1 ">
 
+
+                <!--NOTICIAS-->
+                <section class="row justify-content-center my-1 ">
+                    <section class="col-12 m-2 ">
+                        <div class="card text-center alert alert-primary rounded-4">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Hay nuevas ofertas disponibles</h5>
+                                <p class="card-text">Consulta todas las ofertas</p>
+                                <a href="#" class="btn btn-primary">¡Vamos a ello!</a>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <!--CATEGORIAS-->
+                <section class="row justify-content-around">
+                        <h1 class="col-11  m-3 mt-2">CATEGORIAS</h1>
+                        <!--CAT1-->
+                        <div class="row col-lg-2 col-5 card d-flex justify-content-center p-1 py-3 m-lg-0 m-2">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/mejores-peliculas-2021-1640687462.jpg" >
+
+                            <h5 class="card-title text-center mt-1">Peliculas(120)</h5>
+
+
+                        </div>
+                        <!--CAT2-->
+                        <div class="row col-lg-2 col-5 card d-flex justify-content-center p-1 py-3 m-lg-0 m-2">
+                            <img src="https://media.ambito.com/p/b157946bb7302d024b7f66f22b8a79b8/adjuntos/360/imagenes/041/964/0041964693/375x211/smart/netflix-seriesjpg.jpg" >
+
+                            <h5 class="card-title text-center mt-1">Series (57)</h5>
+
+
+                        </div>
+                        <!--CAT3-->
+                        <div class="row col-lg-2 col-5 card d-flex justify-content-center p-1 py-3 m-lg-0 m-2">
+                            <img src="https://mailrelay.com/wp-content/uploads/2018/03/anuncios-publicitarios.png" >
+
+                            <h5 class="card-title text-center mt-1">Anuncios (368)</h5>
+
+
+                        </div>
+
+                        <!--CAT4-->
+                        <div class="row col-lg-2 col-5 card d-flex justify-content-center p-1 py-3 m-lg-0 m-2">
+                            <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/12/mejores-cortos-pixar_0.jpg?tf=3840x" >
+
+                            <h5 class="card-title text-center mt-1">Cortos(30)</h5>
+
+
+                        </div>
+                </section>
 
                 <!-- ANUNCIOS 1-->
                 <section class="row justify-content-around ">
+
+
+                    <h1 class="col-11  m-3 mt-5">ULTIMOS ANUNCIOS</h1>
                     <article class="col-lg-5 col-10 cuadro-3d m-2">
                         <h6>Hace X minutos</h6>
                         <h2>Titulo</h2>
@@ -195,18 +263,32 @@
                         </figure>
                     </article>
 
+                   
+
                 </section>
 
 
             </section>
 
-            
+
 
 
 
             <!--ASIDE DERECHO-->
             <aside
-                class="mt-2 p-0 col-lg-2 col-5 border border-2 border-black bg-primary bg-gradient bg-opacity-10 rounded-4 order-lg-1 order-0">
+                class="mt-2 p-0 col-lg-2 col-10 border border-3 border-light bg-primary bg-gradient bg-opacity-10 rounded-4 order-lg-1 order-0">
+
+                <section class="row justify-content-center">
+                    <p class="text-center fw-bolder text-decoration-underline">Nombre</p>
+                    <figure class="col-6  mt-2 perfil">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle  "
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg>
+                    </figure>
+                </section>
                 <section>
                     <figure>
                         <figcaption>Logros</figcaption>
@@ -316,8 +398,14 @@
                 </section>
                 <section>
                     <h1>Notificaciones</h1>
-                    <a href="Index.html">Tienes 2 notificaciones</a>
-                    <p>(No funcional)</p>
+                    <a href="Index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#20c997"
+                            class="bi bi-envelope-exclamation-fill m-2" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z" />
+                            <path
+                                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0m0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        </svg>Nuevo mensaje</a>
+
 
                 </section>
 
@@ -325,33 +413,26 @@
         </section>
 
         <!--FOOTER-->
-        <footer class=" bg-primary bg-gradient rounded-4 row">
-            <section class="col-lg-7 col-10 justify-content-around  my-1">
-                <a href=".\index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
-                        <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
-                    </svg>Inicio</a>
-                <a href=".\index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5" />
-                        <path
-                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
-                    </svg>Anuncios</a>
-                <a href=".\index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
-                        <path
-                            d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1zM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
-                    </svg>Favoritos</a>
-                <a href=".\perfil.html"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        fill="currentColor" class="bi bi-person-square" viewBox="0 0 16 16">
-                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-                        <path
-                            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
-                    </svg>Perfil</a>
-            </section>
+
+
+        <footer
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top  bg-primary bg-gradient rounded-1 row">
+            <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                    class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+                    <svg class="bi" width="30" height="24" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> </a> <span class="mb-3 mb-md-0 text-white ">Proyecto Intermodular</span> </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi"
+                            width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi"
+                            width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+
         </footer>
     </main>
 
