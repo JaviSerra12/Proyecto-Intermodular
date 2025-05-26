@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <!--
+    EQUIPO: JAVIER, DANIEL, IKER, CRISTIAN
+    AUTOR: DANIEL CANTERO
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+</head>
+<body class="container">
+        <header>
+        <!--NAV-->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-primary bg-gradient rounded-4"
+            aria-label="Sixth navbar example">
+            <div class="container-fluid"> <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false"
+                    aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarsExample06">
+                    <section class="col-lg-7 col-10 justify-content-around  my-1">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item"> <a class="nav-link fw-bold d-flex align-items-center"
+                                    aria-current="page" href="./index.html"> <svg xmlns="http://www.w3.org/2000/svg"
+                                        width="32" height="32" fill="currentColor" class="bi bi-house-fill"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z">
+                                        </path>
+                                        <path
+                                            d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z">
+                                        </path>
+                                    </svg>Inicio</a> </li>
+                            <li class="nav-item"> <a class="nav-link d-flex align-items-center" href="#"> <svg
+                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5" />
+                                        <path
+                                            d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85z" />
+                                    </svg>Anuncios </a> </li>
+                            <li class="nav-item"> <a class="nav-link d-flex align-items-center" href="#"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4zM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1zM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
+                                    </svg>Notificaciones</a> </li>
+                            <li class="nav-item"> <a class="nav-link active d-flex align-items-center" href="./perfil.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                                        class="bi bi-person-square" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                        <path
+                                            d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                                    </svg>Perfil</a> </li>
+                            <li class="nav-item"> <a
+                                    class="nav-link text-decoration-underline fw-bold d-flex align-items-center"
+                                    href="./Login.html"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                        fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                                    </svg> Login</a> </li>
+
+                        </ul>
+                    </section>
+
+                    <!--INBOX-->
+                    <form role="search"> <input class="form-control col-8" type="search" placeholder="Buscar"
+                            aria-label="Search"> </form>
+                </div>
+            </div>
+
+            
+        </nav>
+
+
+    </header>
+
+    <main class="d-flex justify-content-center">
+            <aside class="mt-3 p-1 col-lg-7 col-6 border-3 border-light bg-primary bg-gradient bg-opacity-10 rounded-4 order-lg-1 justify-content-center">
+
+                <section class="row justify-content-center">
+                    <p class="text-center fw-bolder text-decoration-underline">Cuenta</p>
+                    <figure class="col-6  mt-2 perfil">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-person-circle  "
+                            viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path fill-rule="evenodd"
+                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                        </svg>
+                    </figure>
+                </section>
+                <section>
+                    <figure>
+                        <figcaption>Nombre y apellidos:</figcaption>
+                        <figcaption>Dirección: </figcaption>
+                        <figcaption>URL:</figcaption>
+                    </figure>
+                    
+                    <figure>
+                        <figcaption>Logros</figcaption>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffc107"
+                            class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+                        </svg>
+                    </figure>
+
+                    <p>Principiante</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 25%">25%</div>
+                    </div>
+                    <figure>
+                        <!--1-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z" />
+                        </svg>
+                        <!--2-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-2-square-fill marcado" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306" />
+                        </svg>
+                        <!--3-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318" />
+                        </svg>
+                        <!--4-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-4-square-fill" viewBox="0 0 16 16">
+                            <path d="M6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218" />
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.519 5.057q.33-.527.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265Z" />
+                        </svg>
+                    </figure>
+                    <p>Estrella</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 75%">75%</div>
+                    </div>
+                    <figure>
+                        <!--1-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-1-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z" />
+                        </svg>
+                        <!--2-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306" />
+                        </svg>
+                        <!--3-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318" />
+                        </svg>
+                        <!--4-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-4-square-fill marcado" viewBox="0 0 16 16">
+                            <path d="M6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218" />
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.519 5.057q.33-.527.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265Z" />
+                        </svg>
+                    </figure>
+                    <p>Leyenda</p>
+                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="50"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 50%">50%</div>
+                    </div>
+                    <figure>
+                        <!--1-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-1-square-fill marcado" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm7.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z" />
+                        </svg>
+                        <!--2-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-2-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.646 6.24v.07H5.375v-.064c0-1.213.879-2.402 2.637-2.402 1.582 0 2.613.949 2.613 2.215 0 1.002-.6 1.667-1.287 2.43l-.096.107-1.974 2.22v.077h3.498V12H5.422v-.832l2.97-3.293c.434-.475.903-1.008.903-1.705 0-.744-.557-1.236-1.313-1.236-.843 0-1.336.615-1.336 1.306" />
+                        </svg>
+                        <!--3-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-3-square-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.918 8.414h-.879V7.342h.838c.78 0 1.348-.522 1.342-1.237 0-.709-.563-1.195-1.348-1.195-.79 0-1.312.498-1.348 1.055H5.275c.036-1.137.95-2.115 2.625-2.121 1.594-.012 2.608.885 2.637 2.062.023 1.137-.885 1.776-1.482 1.875v.07c.703.07 1.71.64 1.734 1.917.024 1.459-1.277 2.396-2.93 2.396-1.705 0-2.707-.967-2.754-2.144H6.33c.059.597.68 1.06 1.541 1.066.973.006 1.6-.563 1.588-1.354-.006-.779-.621-1.318-1.541-1.318" />
+                        </svg>
+                        <!--4-->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-4-square-fill" viewBox="0 0 16 16">
+                            <path d="M6.225 9.281v.053H8.85V5.063h-.065c-.867 1.33-1.787 2.806-2.56 4.218" />
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5.519 5.057q.33-.527.657-1.055h1.933v5.332h1.008v1.107H10.11V12H8.85v-1.559H4.978V9.322c.77-1.427 1.656-2.847 2.542-4.265Z" />
+                        </svg>
+                    </figure>
+                </section>
+                <section>
+                    <h2>Notificaciones</h2>
+                    <a href="Index.html"> <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#20c997"
+                            class="bi bi-envelope-exclamation-fill m-2" viewBox="0 0 16 16">
+                            <path
+                                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 4.697v4.974A4.5 4.5 0 0 0 12.5 8a4.5 4.5 0 0 0-1.965.45l-.338-.207z" />
+                            <path
+                                d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0m0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0" />
+                        </svg>Nuevo mensaje</a>
+
+
+                </section>
+
+            </aside>
+    
+           <section class="row justify-content-around ">
+
+
+                    <h1 class="col-11  m-3 mt-5">Tus rasgos:</h1>
+                    <article class="col-lg-5 col-10 cuadro-3d m-2">
+                        <h2>Tus aptitudes</h2>
+                        <p class="texto-propio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue
+                            porttitor, rutrum nibh
+                            sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean
+                            viverra,
+                            enim
+                            eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                        <figure>
+                            <a href="./anuncios.html"><button type="button"
+                                    class="btn btn-primary rounded-4 ">Editar</button></a>
+                        </figure>
+                    </article>
+
+                    <!-- ANUNCIOS 2-->
+                    <article class="col-lg-5 col-10 cuadro-3d m-2">
+                        <h2>Físicos</h2>
+                        <p class="texto-propio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue
+                            porttitor, rutrum nibh
+                            sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean
+                            viverra,
+                            enim
+                            eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                        <figure>
+                            <a href="./anuncios.html"><button type="button"
+                                    class="btn btn-primary rounded-4 ">Editar</button></a>
+                        </figure>
+                    </article>
+
+                    <!-- ANUNCIOS 3-->
+                    <article class="col-lg-5 col-10 cuadro-3d m-2">
+                        <h2>Estudios</h2>
+                        <p class="texto-propio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue
+                            porttitor, rutrum nibh
+                            sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean
+                            viverra,
+                            enim
+                            eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                        <figure>
+                            <a href="./anuncios.html"><button type="button"
+                                    class="btn btn-primary rounded-4 ">Editar</button></a>
+                        </figure>
+                    </article>
+
+                    <!-- ANUNCIOS 4-->
+                    <article class="col-lg-5 col-10 cuadro-3d m-2">
+                        <h2>Descripción</h2>
+                        <p class="texto-propio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a augue
+                            porttitor, rutrum nibh
+                            sodales, congue leo. Phasellus ut condimentum elit, quis venenatis velit. Aenean
+                            viverra,
+                            enim
+                            eget dignissim mollis, orci nunc tristique nibh, nec rutrum risus quam id massa.</p>
+                        <figure>
+                            
+                            <a href="./anuncios.html"><button type="button"
+                                    class="btn btn-primary rounded-4 ">Editar</button></a>
+                        </figure>
+                    </article>
+
+                   
+
+                </section>
+
+
+
+                
+        </main>
+
+        <footer
+            class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top  bg-primary bg-gradient rounded-1 row">
+            <div class="col-md-4 d-flex align-items-center"> <a href="/"
+                    class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+                    <svg class="bi" width="30" height="24" aria-hidden="true">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg> </a> <span class="mb-3 mb-md-0 text-white ">Proyecto Intermodular</span> </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Instagram"><svg class="bi"
+                            width="24" height="24" aria-hidden="true">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><svg class="bi"
+                            width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+
+        </footer>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
